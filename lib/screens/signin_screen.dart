@@ -6,7 +6,6 @@ import 'package:start/widget/custom_scaffold.dart';
 import '../theme/theme.dart';
 import 'package:get/get.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
 
