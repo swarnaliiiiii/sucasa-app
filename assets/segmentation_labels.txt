@@ -1,0 +1,61 @@
+# Room Boundaries
+wall
+floor
+ceiling
+window
+door
+staircase
+
+# Surface Types
+hardwood_floor
+tile_floor
+carpet
+wallpaper
+painted_wall
+concrete
+marble
+granite
+wooden_panel
+glass
+metal
+
+# Zones
+living_area
+dining_area
+sleeping_area
+work_area
+storage_area
+walkway
+entrance
+corner
+alcove
+nook
+
+# Architectural Elements
+molding
+trim
+baseboard
+cornice
+pillar
+beam
+arch
+niche
+ledge
+windowsill
+doorframe
+
+# Lighting Areas
+natural_light
+artificial_light
+shadow
+highlight
+reflection
+
+# Special Features
+fireplace
+built_in_storage
+counter_top
+island
+booth
+bay_window
+skylight

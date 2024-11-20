@@ -1,0 +1,66 @@
+# Furniture
+chair
+sofa
+table
+bed
+desk
+cabinet
+wardrobe
+bookshelf
+dresser
+ottoman
+coffee_table
+dining_table
+tv_stand
+sideboard
+bench
+stool
+
+# Storage
+shelves
+drawers
+closet
+storage_unit
+rack
+
+# Lighting
+lamp
+chandelier
+ceiling_light
+wall_sconce
+floor_lamp
+table_lamp
+
+# Electronics
+television
+computer
+monitor
+speaker
+air_conditioner
+
+# Room Features
+window
+door
+wall
+ceiling
+floor
+stairs
+column
+beam
+molding
+baseboard
+outlet
+switch
+vent
+
+# Decor
+curtain
+rug
+carpet
+painting
+mirror
+clock
+vase
+plant
+cushion
+throw_pillow

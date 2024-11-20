@@ -36,6 +36,8 @@ dependencies:
   firebase_core: ^3.7.0
   firebase_auth: ^5.3.2
   google_sign_in: ^6.2.2
+  tflite: ^1.1.2
+
   
 
 
@@ -75,6 +77,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/
+    - assets/ssd_mobilenet.tflite
+    - assets/ssd_mobilenet_labels.txt
+    - assets/deeplabv3.tflite
+    - assets/segmentation_labels.txt
+    - assets/midas.tflite
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
