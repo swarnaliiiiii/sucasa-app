@@ -24,8 +24,17 @@ class Create extends StatefulWidget {
 class _RoomSelectionPageState extends State<Create> {
   String? selectedRoom;
   String? selectedStyle;
-  RangeValues _budgetRange =
-      RangeValues(0, 100000); // Use RangeValues for a range slider
+  RangeValues _budgetRange = RangeValues(0, 100000); // Budget slider
+
+  // Gather user preferences in a method
+  Map<String, dynamic> gatherUserPreferences() {
+    return {
+      'room': selectedRoom,
+      'style': selectedStyle,
+      'budget_min': _budgetRange.start.toInt(),
+      'budget_max': _budgetRange.end.toInt(),
+    };
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -135,7 +144,9 @@ class _RoomSelectionPageState extends State<Create> {
                     Center(
                       child: ElevatedButton(
                         onPressed: () {
-                          Get.to(() => CameraPage());
+                          final userPreferences = gatherUserPreferences();
+                          print("User Preferences: $userPreferences"); // Debugging line
+                          Get.to(() => CameraPage(userPreferences: userPreferences));
                         },
                         child: Text('NEXT'),
                         style: ElevatedButton.styleFrom(
